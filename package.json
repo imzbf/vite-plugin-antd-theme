@@ -1,0 +1,28 @@
+{
+  "name": "vite-plugin-antd-theme",
+  "version": "1.0.0",
+  "description": "vite下的antd-design-vue主题生成插件",
+  "main": "index.js",
+  "author": {
+    "name": "zhoubangfu",
+    "url": "https://zhoubangfu.com",
+    "email": "zbfcqtl@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "vite",
+    "antd",
+    "theme"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "antd-theme-generator": "^1.2.8"
+  },
+  "peerDependencies": {
+    "vite": "^2.2.4",
+    "ant-design-vue": "^2.0.1"
+  }
+}
