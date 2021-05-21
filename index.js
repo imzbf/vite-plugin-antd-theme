@@ -1,7 +1,7 @@
 const fs = require('fs');
 const { generateTheme, getLessVars } = require('antd-theme-generator');
 
-export default (options) => {
+module.exports = (options) => {
   return {
     name: 'vite-antd-theme',
     options(opt) {
