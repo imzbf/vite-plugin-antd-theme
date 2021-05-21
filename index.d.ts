@@ -7,7 +7,7 @@ export declare interface ThemeEntry {
 }
 
 export declare interface AntdThemeGeneratorOptions {
-  antdDir?: string;
+  antDir?: string;
   stylesDir?: string | Array<string>;
   varFile?: string;
   themeVariables?: Array<string>;
