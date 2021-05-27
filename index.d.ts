@@ -6,6 +6,9 @@ export declare interface ThemeEntry {
   outputPath: string;
 }
 
+/**
+ * antd-theme-generator generateTheme options
+ */
 export declare interface AntdThemeGeneratorOptions {
   antDir?: string;
   stylesDir?: string | Array<string>;
