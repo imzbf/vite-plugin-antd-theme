@@ -110,3 +110,9 @@ export default defineComponent({
 ```js
 window.ddd();
 ```
+
+## 更新说明
+
+**2021-05-27 v1.1.0**
+
+从该版本开始默认支持导出 antd 三种主题配置文件到 src/config 目录下
