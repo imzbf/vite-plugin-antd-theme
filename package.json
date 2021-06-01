@@ -1,16 +1,16 @@
 {
   "name": "vite-plugin-antd-theme",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "vite下的antd-design-vue主题生成插件",
   "main": "index.js",
   "author": {
-    "name": "zhoubangfu",
-    "url": "https://zhoubangfu.com",
+    "name": "zbf",
+    "url": "https://imbf.cc",
     "email": "zbfcqtl@163.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhoubangfu/vite-plugin-antd-theme"
+    "url": "https://github.com/imzbf/vite-plugin-antd-theme"
   },
   "keywords": [
     "vite",
