@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-antd-theme",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "vite下的antd-design-vue主题生成插件",
   "main": "index.js",
   "author": {
