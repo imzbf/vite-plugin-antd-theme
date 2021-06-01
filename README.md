@@ -10,7 +10,7 @@ vite.config.ts
 // ...
 import viteAntdTheme, { ThemeEntry, AntdThemeOptions } from 'vite-plugin-antd-theme';
 
-
+// 从1.1.0之后，不提供该配置会默认导出antd提供的暗黑、默认及紧凑主题到src/config中。
 const themesEntry: Array<ThemeEntry> = [
   // 暗黑主题
   {
