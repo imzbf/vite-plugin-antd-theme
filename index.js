@@ -1,7 +1,7 @@
 const fs = require('fs');
 const { generateTheme, getLessVars } = require('antd-theme-generator');
 
-const TEHME_JSON_OUTPUT_PATH = './src/dddconfig';
+const TEHME_JSON_OUTPUT_PATH = './src/config';
 // 1.1.0版本后支持默认导入antd的三种主题了
 const defaultThemesEntry = [
   // 默认主题
