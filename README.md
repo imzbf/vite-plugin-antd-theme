@@ -14,7 +14,12 @@ import viteAntdTheme, { ThemeEntry, AntdThemeOptions } from 'vite-plugin-antd-th
 const themesEntry: Array<ThemeEntry> = [
   // 暗黑主题
   {
-    entryPath: './node_modules/ant-design-vue/lib/style/themes/dark.less',
+    entryPath: [
+      path.resolve(__dirname, './node_modules/ant-design-vue/lib/style/themes/dark.less'),
+      // v1.1.3版本后支持传入多个变量路径
+      // 比如项目中自定义的less变量
+      // 该功能由于读取变量时没有读取import的内容。
+      path.resolve(__dirname, './src/styles/dark.less')],
     outputName: 'dark',
     outputPath: './src/config'
   },
