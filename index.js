@@ -56,7 +56,18 @@ module.exports = (options) => {
           ({ entryPath = '', outputName = '', outputPath = '/' }, index) => {
             // 提供了less变量地址，继续。
             if (entryPath) {
-              const themeVars = getLessVars(entryPath);
+              let themeVars = {};
+
+              if (entryPath instanceof Array) {
+                entryPath.forEach((pathItem) => {
+                  themeVars = {
+                    ...themeVars,
+                    ...getLessVars(pathItem),
+                  };
+                });
+              } else {
+                themeVars = getLessVars(entryPath);
+              }
 
               outputName = outputName ? outputName : `theme${index}`;
 

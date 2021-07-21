@@ -1,7 +1,7 @@
 import { Plugin } from 'vite';
 
 export declare interface ThemeEntry {
-  entryPath: string;
+  entryPath: string | string[];
   outputName: string;
   outputPath: string;
 }
